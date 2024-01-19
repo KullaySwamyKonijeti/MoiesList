@@ -1,0 +1,144 @@
+/* .container {
+  background-image: url("../public/moviesbackground.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding: 10px;
+  position: fixed;
+  z-index: 1;
+  overflow: auto;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+.CardsContainer {
+  display: flex;
+}
+@media screen and(max-width:300px) {
+  .CardsContainer {
+    display: flex;
+  }
+}
+
+.btnK {
+  background: rgb(2, 159, 221);
+  border-width: 2px;
+  border-style: solid;
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  border: none;
+}
+.btn {
+  text-align: center;
+  background-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  margin: 10px;
+}
+.btn:hover {
+  border-image: linear-gradient(#f6b73c, #4d9f0c) 1;
+}
+
+.MoviesDataContaier {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  gap: 25px;
+}
+.movieData {
+  color: black;
+  background-color: white;
+  margin-top: -10px;
+  padding: 10px;
+  gap: 3px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.imgPoster {
+  width: 300px;
+  height: 200px;
+} */
+
+
+.container {
+  background-image: url("../public/moviesbackground.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding: 10px;
+  position: fixed;
+  z-index: 1;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.CardsContainer {
+  display: flex;
+}
+.btnK {
+  background: rgb(2, 159, 221);
+  border-width: 2px;
+  border-style: solid;
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  border: none;
+}
+
+.btn {
+  text-align: center;
+  background-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  margin: 10px;
+}
+
+.btn:hover {
+  border-image: linear-gradient(#f6b73c, #4d9f0c) 1;
+}
+
+.MoviesDataContaier {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  gap: 25px;
+}
+
+.movieData {
+  color: black;
+  background-color: white;
+  margin-top: -10px;
+  padding: 10px;
+  gap: 3px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.imgPoster {
+  width: 300px;
+  height: 200px;
+}
+
